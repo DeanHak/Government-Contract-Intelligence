@@ -69,13 +69,12 @@ python mergeCBITransactions.py
 
 Aggregate by CBSA and county:
 
-_python aggregateContracts.py
-__python contracts_by_county.py
-_
+python aggregateContracts.py
+python contracts_by_county.py
 
 
 Generate visualizations:
 
-_python viz_map.py
-_
+python viz_map.py
+
 Outputs are saved in 02_output/ (e.g., dot_contracts_byCbsa.csv, DOE_FY23_cbsaStats.json) and databases (uscb_gazetter.db, fed_contracts.db) in the working directory.
